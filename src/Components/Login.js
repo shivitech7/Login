@@ -27,6 +27,7 @@ const Login = () => {
             })
             .catch((err) => {
                 console.log("api connection failed! ", err);
+                alert("invalid username or password!");
             })
     }
     return (
